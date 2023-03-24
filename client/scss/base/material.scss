@@ -92,7 +92,7 @@ $material-colors: (
 	'400': #42a5f5,
 	'500': #2196f3,
 	'600': #1e88e5,
-	'700': #1976d2,
+	'700': #00594F,
 	'800': #1565c0,
 	'900': #0d47a1,
 	'a100': #82b1ff,
@@ -312,13 +312,20 @@ $material-colors: (
   ),
 
   'theme': (
-    'primary': #1976D2,
-    'secondary': #424242,
-    'accent': #82B1FF,
-    'error': #FF5252,
-    'info': #2196F3,
-    'success': #4CAF50,
-    'warning': #FFC107
+//    'primary': #00594F,
+//    'secondary': #424242,
+//    'accent': #82B1FF,
+//    'error': #FF5252,
+//    'info': #2196F3,
+//    'success': #4CAF50,
+//    'warning': #FFC107
+    'primary': #00594F,  // KA:n Tumma vihreä
+    'secondary': #888B8D,  // KA:n Tumma harmaa
+    'accent': #E0D0B4,  // KA:n Beige
+    'error': #E0725C,  // KA:n Vaalea oranssi 1
+    'info': #A3C9EC,  // KA:n Vaalea sininen 1
+    'success': #AAD9D6,  // KA:n Vaalea vihreä 1
+    'warning': #FFEAAD  // KA:n Vaalea keltainen 1
   )
 );
 

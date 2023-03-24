@@ -315,9 +315,9 @@
       }
     }
     &.is-danger {
-      background-color: mc('red', '50');
-      border-color: mc('red', '300');
-      color: mc('red', '900');
+      background-color: mc('theme', 'error');
+      border-color: darken(mc('theme', 'error'), 10%);
+      color: darken(mc('theme', 'error'), 60%);
 
       &::before {
         content: "\F0159";
