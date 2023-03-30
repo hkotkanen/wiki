@@ -84,22 +84,22 @@ $material-colors: (
 	'a700': #304ffe
   ),
 
-  'blue': (
-	'50': #e3f2fd,
-	'100': #bbdefb,
-	'200': #90caf9,
-	'300': #64b5f6,
-	'400': #42a5f5,
-	'500': #2196f3,
-	'600': #1e88e5,
-	'700': #1976d2,
-	'800': #1565c0,
-	'900': #0d47a1,
-	'a100': #82b1ff,
-	'a200': #448aff,
-	'a400': #2979ff,
-	'a700': #2962ff
-  ),
+//  'blue': (
+//	'50': #e3f2fd,
+//	'100': #bbdefb,
+//	'200': #90caf9,
+//	'300': #64b5f6,
+//	'400': #42a5f5,
+//	'500': #2196f3,
+//	'600': #1e88e5,
+//	'700': #1976d2,
+//	'800': #1565c0,
+//	'900': #0d47a1,
+//	'a100': #82b1ff,
+//	'a200': #448aff,
+//	'a400': #2979ff,
+//	'a700': #2962ff
+// ),
 
   'light-blue': (
 	'50': #e1f5fe,
@@ -167,6 +167,40 @@ $material-colors: (
 	'a200': #69f0ae,
 	'a400': #00e676,
 	'a700': #00c853
+  ),
+
+  'ka-green': (
+	'50': #e1f4f4,
+	'100': #84d3d0,
+	'200': #51c1bc,
+	'300': #28b3ac,
+	'400': #00978e,
+	'500': #00867c,
+	'600': #00766d,
+	'700': #00594f,
+	'800': #004C44,
+	'900': #004038,
+	'a100': #51c1bc,
+	'a200': #00a49c,
+	'a400': #00867c,
+	'a700': #00594f
+  ),
+
+  'blue': (
+	'50': #e1f4f4,
+	'100': #84d3d0,
+	'200': #51c1bc,
+	'300': #28b3ac,
+	'400': #00978e,
+	'500': #00867c,
+	'600': #00766d,
+	'700': #00594f,
+	'800': #004C44,
+	'900': #004038,
+	'a100': #51c1bc,
+	'a200': #00a49c,
+	'a400': #00867c,
+	'a700': #00594f
   ),
 
   'light-green': (
@@ -312,13 +346,21 @@ $material-colors: (
   ),
 
   'theme': (
-    'primary': #1976D2,
-    'secondary': #424242,
-    'accent': #82B1FF,
+    //'primary': #1976D2,
+    //'secondary': #424242,
+    //'accent': #82B1FF,
     'error': #FF5252,
     'info': #2196F3,
     'success': #4CAF50,
-    'warning': #FFC107
+    'warning': #FFC107,
+
+    'primary': #00594F,  // KA:n Tumma vihreä
+    'secondary': #888B8D,  // KA:n Tumma harmaa
+    'accent': #E0D0B4,  // KA:n Beige
+    //'error': #E0725C,  // KA:n Vaalea oranssi 1
+    //'info': #A3C9EC,  // KA:n Vaalea sininen 1
+    //'success': #AAD9D6,  // KA:n Vaalea vihreä 1
+    //'warning': #FFEAAD  // KA:n Vaalea keltainen 1
   )
 );
 

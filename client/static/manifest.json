@@ -1,6 +1,6 @@
 {
-  "name": "Wiki.js",
-  "short_name": "Wiki.js",
+  "name": "Arkistojen Portti",
+  "short_name": "Arkistojen Portti",
   "start_url": "/",
   "icons": [
       {
@@ -9,12 +9,12 @@
           "type": "image/png"
       },
       {
-          "src": "/_assets/favicons/android-chrome-256x256.png",
-          "sizes": "256x256",
+          "src": "/_assets/favicons/android-chrome-384x384.png",
+          "sizes": "384x384",
           "type": "image/png"
       }
   ],
-  "theme_color": "#1976d2",
-  "background_color": "#1976d2",
+  "theme_color": "#f4f3ef",
+  "background_color": "#f4f3ef",
   "display": "standalone"
 }
