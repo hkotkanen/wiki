@@ -33,6 +33,6 @@ $display-breakpoints: (
 
 .v-application {
   [class*='text-'] {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
   }
 }

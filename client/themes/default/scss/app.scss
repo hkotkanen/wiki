@@ -274,9 +274,12 @@
     }
 
     &.is-info {
-      background-color: mc('blue', '50');
-      border-color: mc('blue', '300');
-      color: mc('blue', '900');
+      // background-color: mc('blue', '50');
+      // border-color: mc('blue', '300');
+      // color: mc('blue', '900');
+      background-color: #A3C9EC;  // KA:n vaalea sininen
+      border-color: darken(#A3C9EC, 20%);
+      color: darken(#A3C9EC, 60%);
 
       &::before {
         content: "\F02FC";
@@ -294,9 +297,13 @@
       }
     }
     &.is-warning {
-      background-color: mc('orange', '50');
-      border-color: mc('orange', '300');
-      color: darken(mc('orange', '900'), 10%);
+      // background-color: darken(mc('orange', '50'), 90%);
+      // border-color: mc('orange', '300');
+      // color: darken(mc('orange', '900'), 10%);
+        // KA:n Vaalea keltainen
+        background-color: #FFEAAD;  // KA:n vaalea keltainen
+        border-color: darken(#FFEAAD, 20%);
+        color: darken(#FFEAAD, 60%);
 
       &::before {
         content: "\F0026";
@@ -315,9 +322,12 @@
       }
     }
     &.is-danger {
-      background-color: mc('red', '50');
-      border-color: mc('red', '300');
+      // background-color: mc('red', '50');
+      // border-color: mc('red', '300');
       color: mc('red', '900');
+      background-color: lighten(#E0725C, 20%);  // KA:n vaalea oranssi
+      border-color: #E0725C;
+      // color: darken(#E0725C, 50%);
 
       &::before {
         content: "\F0159";
@@ -335,9 +345,12 @@
       }
     }
     &.is-success {
-      background-color: mc('green', '50');
-      border-color: mc('green', '300');
-      color: mc('green', '900');
+      // background-color: mc('green', '50');
+      // border-color: mc('green', '300');
+      // color: mc('green', '900');
+      background-color: #AAD9D6;
+      border-color: darken(#AAD9D6, 20%);
+      color: darken(#AAD9D6, 60%);
 
       &::before {
         content: "\F0E1E";
@@ -685,7 +698,7 @@
         display:inline-block;
         vertical-align:top;
         padding-top:0;
-        
+
         &:first-child {
           width: 100%;
         }

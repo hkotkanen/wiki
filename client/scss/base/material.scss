@@ -346,21 +346,25 @@ $material-colors: (
   ),
 
   'theme': (
+    // Nämä ovat vuetify-kirjaston defaulttivärit
     //'primary': #1976D2,
     //'secondary': #424242,
     //'accent': #82B1FF,
-    'error': #FF5252,
-    'info': #2196F3,
-    'success': #4CAF50,
-    'warning': #FFC107,
+    //'error': #FF5252,
+    //'info': #2196F3,
+    //'success': #4CAF50,
+    //'warning': #FFC107,
 
+    // Tätä käytetään muutamassa componentissa luokkanimenä
     'primary': #00594F,  // KA:n Tumma vihreä
+
+    // NÄITÄ EI KÄYTETÄ MISSÄÄN, VAAN MUISTISSA
     'secondary': #888B8D,  // KA:n Tumma harmaa
     'accent': #E0D0B4,  // KA:n Beige
-    //'error': #E0725C,  // KA:n Vaalea oranssi 1
-    //'info': #A3C9EC,  // KA:n Vaalea sininen 1
-    //'success': #AAD9D6,  // KA:n Vaalea vihreä 1
-    //'warning': #FFEAAD  // KA:n Vaalea keltainen 1
+    'ka-error': #E0725C,  // KA:n Vaalea oranssi 1
+    'ka-info': #A3C9EC,  // KA:n Vaalea sininen 1
+    'ka-success': #AAD9D6,  // KA:n Vaalea vihreä 1
+    'ka-warning': #FFEAAD  // KA:n Vaalea keltainen 1
   )
 );
 

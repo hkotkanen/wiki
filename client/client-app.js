@@ -212,13 +212,7 @@ let bootstrap = () => {
           light: {
             'primary': '#00594F',
             'secondary': '#888B8D',
-            'accent': '#E0D0B4',
-            // 'error': '#E0725C',
-            // 'info': '#A3C9EC',
-            // 'success': '#AAD9D6',
-            // 'warning': '#FFEAAD'
-            'primary-darken-1': '#004C44',
-            'primary-darken-2': '#004038'
+            'accent': '#E0D0B4'
           }
         },
         options: { customProperties: true }
